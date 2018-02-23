@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-#fh5co-header {
+#nextar-header {
 	// position: relative;
 	position: absolute;
 	z-index: 99;
@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#fh5co-home {
+#nextar-home {
 	background-color: transparent;
 	background-size: cover;
 	background-attachment: fixed;
@@ -549,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 101%;
 }
 
-#fh5co-intro {
+#nextar-intro {
 	position: relative;
 	bottom: 0;
 	margin-top: -150px;
@@ -610,7 +610,7 @@ h1, h2, h3, h4, h5, h6 {
 			right: 0;
 			@include transition(.5s);
 		}
-		> .fh5co-text {
+		> .project-wrapper {
 			position: relative;
 			z-index: 10;
 			.fh5co-intro-icon {
@@ -630,7 +630,7 @@ h1, h2, h3, h4, h5, h6 {
 				opacity: 0;
 				z-index: 9;
 			}
-			> .fh5co-text {
+			> .project-wrapper {
 				color: $brand-white;
 				.fh5co-intro-icon {
 					color: $brand-white;
@@ -704,19 +704,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+#nextar-services, #nextar-testimonials, #nextar-counters, #nextar-work, #nextar-contact, #nextar-about {
 	padding: 4em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 2em 0;
 	}
 }
-#fh5co-services, #fh5co-work, #fh5co-counters {
+#nextar-services, #nextar-work, #nextar-counters {
 	padding: 7em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 4em 0;
 	}	
 }
-#fh5co-services {
+#nextar-services {
 
 
 	@include fh5co-gradient;
@@ -774,7 +774,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#fh5co-counters {
+#nextar-counters {
 	background: $brand-primary;
 	overflow: hidden;
 	background-color: transparent;
@@ -867,7 +867,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#fh5co-testimonials {
+#nextar-testimonials {
 	.box-testimony {
 		margin-bottom: 2em;
 		float: left;
@@ -940,7 +940,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#fh5co-work {
+#nextar-work {
 	// background: $brand-secondary;
 
 	overflow: hidden;
@@ -1008,7 +1008,7 @@ h1, h2, h3, h4, h5, h6 {
 			opacity: 1;
 			@include transition(.3s);
 		}
-		.fh5co-text {
+		.project-wrapper {
 			padding: 10px 20px;
 			h2, span {
 				text-decoration: none!important;
@@ -1096,7 +1096,7 @@ h1, h2, h3, h4, h5, h6 {
 		outline: none;
 	}
 }
-#fh5co-contact {
+#nextar-contact {
 	// Contacts
 	padding-bottom: 0;
 	.fh5co-contact-info {

@@ -1,0 +1,61 @@
+@import 'style3.scss';
+// header
+#nextar-header{
+    margin-top:0px;
+    .navbar-brand{
+        width:150px;
+        padding:15px 5px;
+        vertical-align: middle;
+        img{
+            width:100%;
+        }
+    }
+}
+
+#nextar-home{
+    height:auto;
+    padding:25px 0;
+    .text-inner .row{
+        vertical-align: middle;
+        width:100%;
+        h2{}
+        img{width:100%; max-width:500px;}
+    }
+}
+// project
+#nextar-intro{
+    padding:5px;
+}
+#nextar-intro .fh5co-block{
+    width:32.3%;
+    margin:0 0.5%;
+    margin-bottom:80px;
+    h2{
+        line-height: 80px;
+        margin-bottom:0px;
+    }
+}
+ .project-wrapper{
+     
+    margin:0;
+     padding:0 5px;
+     img{
+         width:100%;
+         margin-top: -110px;
+         max-width: 200px;
+     }
+ }
+.text-wrapper{
+    line-height: 100px;
+    top:150px;
+    h2{
+        line-height: 40px;
+    }
+}
+#footer{
+    @include fh5co-gradient;
+    color:#fff;
+}
+ #nextar-contact{
+     padding:0;
+ }

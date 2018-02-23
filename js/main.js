@@ -129,7 +129,7 @@
 
 		$(window).scroll(function(event){
 
-		   	var header = $('#fh5co-header'),
+		   	var header = $('#nextar-header'),
 				scrlTop = $(this).scrollTop();
 
 			if ( scrlTop > 500 && scrlTop <= 2000 ) {
@@ -152,15 +152,15 @@
 	// Home
 
 	var homeAnimate = function() {
-		if ( $('#fh5co-home').length > 0 ) {	
+		if ( $('#nextar-home').length > 0 ) {	
 
-			$('#fh5co-home').waypoint( function( direction ) {
+			$('#nextar-home').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-home .to-animate').each(function( k ) {
+						$('#nextar-home .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -181,15 +181,15 @@
 
 
 	var introAnimate = function() {
-		if ( $('#fh5co-intro').length > 0 ) {	
+		if ( $('#nextar-intro').length > 0 ) {	
 
-			$('#fh5co-intro').waypoint( function( direction ) {
+			$('#nextar-intro').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-intro .to-animate').each(function( k ) {
+						$('#nextar-intro .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -209,15 +209,15 @@
 	};
 
 	var workAnimate = function() {
-		if ( $('#fh5co-work').length > 0 ) {	
+		if ( $('#nextar-work').length > 0 ) {	
 
-			$('#fh5co-work').waypoint( function( direction ) {
+			$('#nextar-work').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-work .to-animate').each(function( k ) {
+						$('#nextar-work .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -238,7 +238,7 @@
 
 
 	var testimonialAnimate = function() {
-		var testimonial = $('#fh5co-testimonials');
+		var testimonial = $('#nextar-testimonials');
 		if ( testimonial.length > 0 ) {	
 
 			testimonial.waypoint( function( direction ) {
@@ -280,7 +280,7 @@
 	};
 
 	var servicesAnimate = function() {
-		var services = $('#fh5co-services');
+		var services = $('#nextar-services');
 		if ( services.length > 0 ) {	
 
 			services.waypoint( function( direction ) {
@@ -323,7 +323,7 @@
 	};
 
 	var aboutAnimate = function() {
-		var about = $('#fh5co-about');
+		var about = $('#nextar-about');
 		if ( about.length > 0 ) {	
 
 			about.waypoint( function( direction ) {
@@ -353,7 +353,7 @@
 	};
 
 	var countersAnimate = function() {
-		var counters = $('#fh5co-counters');
+		var counters = $('#nextar-counters');
 		if ( counters.length > 0 ) {	
 
 			counters.waypoint( function( direction ) {
@@ -407,7 +407,7 @@
 
 
 	var contactAnimate = function() {
-		var contact = $('#fh5co-contact');
+		var contact = $('#nextar-contact');
 		if ( contact.length > 0 ) {	
 
 			contact.waypoint( function( direction ) {

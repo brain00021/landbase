@@ -1277,3 +1277,19 @@ h1, h2, h3, h4, h5, h6 {
 
 #nextar-contact {
   padding: 0; }
+
+#footer {
+  padding: 30px 0; }
+
+.footer-text-wrapper {
+  text-align: left;
+  line-height: 20px; }
+  .footer-text-wrapper img {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    vertical-align: middle; }
+  .footer-text-wrapper i {
+    margin-right: 15px; }
+  .footer-text-wrapper p {
+    margin: 0; }

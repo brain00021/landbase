@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
 }
-#nextar-intro .fh5co-block {
+#nextar-intro .project-block {
   width: 33.33%;
   float: left;
   text-align: center;
@@ -497,11 +497,11 @@ h1, h2, h3, h4, h5, h6 {
   backgroun-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
-  #nextar-intro .fh5co-block {
+  #nextar-intro .project-block {
     width: 100%;
   }
 }
-#nextar-intro .fh5co-block > .overlay-darker {
+#nextar-intro .project-block > .overlay-darker {
   z-index: 8;
   opacity: .5;
   background: #474747;
@@ -511,7 +511,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   bottom: 0;
 }
-#nextar-intro .fh5co-block > .overlay {
+#nextar-intro .project-block > .overlay {
   background: #fff;
   opacity: 1;
   z-index: 9;
@@ -524,38 +524,38 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#nextar-intro .fh5co-block > .fh5co-text {
+#nextar-intro .project-block > .fh5co-text {
   position: relative;
   z-index: 10;
 }
-#nextar-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
+#nextar-intro .project-block > .fh5co-text .fh5co-intro-icon {
   font-size: 50px;
   color: #329998;
   margin-bottom: 30px;
   display: block;
 }
-#nextar-intro .fh5co-block h2 {
+#nextar-intro .project-block h2 {
   font-size: 24px;
   font-weight: 400;
 }
-#nextar-intro .fh5co-block:hover > .overlay, #nextar-intro .fh5co-block:focus > .overlay {
+#nextar-intro .project-block:hover > .overlay, #nextar-intro .project-block:focus > .overlay {
   opacity: 0;
   z-index: 9;
 }
-#nextar-intro .fh5co-block:hover > .fh5co-text, #nextar-intro .fh5co-block:focus > .fh5co-text {
+#nextar-intro .project-block:hover > .fh5co-text, #nextar-intro .project-block:focus > .fh5co-text {
   color: #fff;
 }
-#nextar-intro .fh5co-block:hover > .fh5co-text .fh5co-intro-icon, #nextar-intro .fh5co-block:focus > .fh5co-text .fh5co-intro-icon {
+#nextar-intro .project-block:hover > .fh5co-text .fh5co-intro-icon, #nextar-intro .project-block:focus > .fh5co-text .fh5co-intro-icon {
   color: #fff;
 }
-#nextar-intro .fh5co-block:hover h2, #nextar-intro .fh5co-block:focus h2 {
+#nextar-intro .project-block:hover h2, #nextar-intro .project-block:focus h2 {
   color: #fff;
 }
-#nextar-intro .fh5co-block:hover .btn, #nextar-intro .fh5co-block:focus .btn {
+#nextar-intro .project-block:hover .btn, #nextar-intro .project-block:focus .btn {
   border: 2px solid #fff !important;
   background: transparent;
 }
-#nextar-intro .fh5co-block:hover .btn:hover, #nextar-intro .fh5co-block:focus .btn:hover {
+#nextar-intro .project-block:hover .btn:hover, #nextar-intro .project-block:focus .btn:hover {
   background: #329998 !important;
   border: 2px solid #329998 !important;
 }

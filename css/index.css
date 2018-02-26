@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap; }
-  #nextar-intro .fh5co-block {
+  #nextar-intro .project-block {
     width: 33.33%;
     float: left;
     text-align: center;
@@ -463,9 +463,9 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     backgroun-repeat: no-repeat; }
     @media screen and (max-width: 768px) {
-      #nextar-intro .fh5co-block {
+      #nextar-intro .project-block {
         width: 100%; } }
-    #nextar-intro .fh5co-block > .overlay-darker {
+    #nextar-intro .project-block > .overlay-darker {
       z-index: 8;
       opacity: .5;
       background: #474747;
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6 {
       right: 0;
       top: 0;
       bottom: 0; }
-    #nextar-intro .fh5co-block > .overlay {
+    #nextar-intro .project-block > .overlay {
       background: #fff;
       opacity: 1;
       z-index: 9;
@@ -486,30 +486,30 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-transition: 0.5s;
       -o-transition: 0.5s;
       transition: 0.5s; }
-    #nextar-intro .fh5co-block > .project-wrapper {
+    #nextar-intro .project-block > .project-wrapper {
       position: relative;
       z-index: 10; }
-      #nextar-intro .fh5co-block > .project-wrapper .fh5co-intro-icon {
+      #nextar-intro .project-block > .project-wrapper .fh5co-intro-icon {
         font-size: 50px;
         color: #c24d67;
         margin-bottom: 30px;
         display: block; }
-    #nextar-intro .fh5co-block h2 {
+    #nextar-intro .project-block h2 {
       font-size: 24px;
       font-weight: 400; }
-    #nextar-intro .fh5co-block:hover > .overlay, #nextar-intro .fh5co-block:focus > .overlay {
+    #nextar-intro .project-block:hover > .overlay, #nextar-intro .project-block:focus > .overlay {
       opacity: 0;
       z-index: 9; }
-    #nextar-intro .fh5co-block:hover > .project-wrapper, #nextar-intro .fh5co-block:focus > .project-wrapper {
+    #nextar-intro .project-block:hover > .project-wrapper, #nextar-intro .project-block:focus > .project-wrapper {
       color: #fff; }
-      #nextar-intro .fh5co-block:hover > .project-wrapper .fh5co-intro-icon, #nextar-intro .fh5co-block:focus > .project-wrapper .fh5co-intro-icon {
+      #nextar-intro .project-block:hover > .project-wrapper .fh5co-intro-icon, #nextar-intro .project-block:focus > .project-wrapper .fh5co-intro-icon {
         color: #fff; }
-    #nextar-intro .fh5co-block:hover h2, #nextar-intro .fh5co-block:focus h2 {
+    #nextar-intro .project-block:hover h2, #nextar-intro .project-block:focus h2 {
       color: #fff; }
-    #nextar-intro .fh5co-block:hover .btn, #nextar-intro .fh5co-block:focus .btn {
+    #nextar-intro .project-block:hover .btn, #nextar-intro .project-block:focus .btn {
       border: 2px solid #fff !important;
       background: transparent; }
-      #nextar-intro .fh5co-block:hover .btn:hover, #nextar-intro .fh5co-block:focus .btn:hover {
+      #nextar-intro .project-block:hover .btn:hover, #nextar-intro .project-block:focus .btn:hover {
         background: #c24d67 !important;
         border: 2px solid #c24d67 !important; }
 
@@ -1236,17 +1236,53 @@ h1, h2, h3, h4, h5, h6 {
     #nextar-home .text-inner .row img {
       width: 100%;
       max-width: 500px; }
+  @media only screen and (max-width: 900px) {
+    #nextar-home {
+      vertical-align: top;
+      display: block;
+      text-align: center; }
+      #nextar-home .text-inner {
+        display: block; }
+      #nextar-home .text-wrap {
+        height: auto;
+        padding: 40px 0 15px 0; }
+      #nextar-home .text-inner .row {
+        margin: auto; }
+        #nextar-home .text-inner .row img {
+          vertical-align: top;
+          max-width: 320px; }
+        #nextar-home .text-inner .row .text-wrapper {
+          top: -220px; }
+      #nextar-home img {
+        margin: auto; }
+      #nextar-home .text-wrapper {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 15px; }
+        #nextar-home .text-wrapper h2 {
+          font-size: 12pt;
+          line-height: 20px; } }
+  @media only screen and (max-width: 640px) {
+    #nextar-home .text-inner .row .text-wrapper {
+      top: 0px; } }
 
 #nextar-intro {
   padding: 5px; }
 
-#nextar-intro .fh5co-block {
+#nextar-intro .project-block {
   width: 32.3%;
   margin: 0 0.5%;
-  margin-bottom: 80px; }
-  #nextar-intro .fh5co-block h2 {
+  margin-bottom: 120px;
+  min-height: 100px;
+  padding: 0; }
+  #nextar-intro .project-block h2 {
     line-height: 80px;
     margin-bottom: 0px; }
+  @media screen and (max-width: 600px) {
+    #nextar-intro .project-block {
+      width: 100%;
+      margin: 10px auto; }
+      #nextar-intro .project-block .project-wrapper img {
+        margin-top: 15px; } }
 
 .project-wrapper {
   margin: 0;
@@ -1261,6 +1297,10 @@ h1, h2, h3, h4, h5, h6 {
   top: 150px; }
   .text-wrapper h2 {
     line-height: 40px; }
+  @media screen and (max-width: 600px) {
+    .text-wrapper {
+      top: 0;
+      margin-top: -280px; } }
 
 #footer {
   background-color: #c24d67;
@@ -1279,9 +1319,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; }
 
 #footer {
-  padding: 30px 0; }
+  padding: 30px 0;
+  text-align: center; }
   #footer .footer-img {
     position: relative;
+    margin: auto;
     margin-top: 30px;
     width: 100%;
     max-width: 350px;

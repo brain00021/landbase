@@ -40,7 +40,7 @@
                 max-width: 320px;
             }
             .text-wrapper{
-                top:-220px;
+                top:0px;
             }
         }
         img{
@@ -56,28 +56,45 @@
 
             }
         }
+        #nextar-intro .project-block h2 {
+            font-size: 16px;
+        }
     }
     @media only screen  and (max-width:640px){
         .text-inner .row{
             .text-wrapper{
-                top:0px;
+                top:300px;
             }
         }
     }
 }
 // project
+
 #nextar-intro{
     padding:5px;
 }
 #nextar-intro .project-block > .overlay-darker{
     background:transparent;
 }
+#nextar-intro .project-block > .overlay {
+    background: rgba(255, 255, 255, 0);
+    opacity: 1;
+    z-index: 9;
+    position: relative;
+}
 #nextar-intro .project-block{
-    width:32.3%;
-    margin:0 0.5%;
-    margin-bottom:120px;
-    min-height: 100px;
-    padding:0;
+    width: 49%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    min-height: 300px;
+    vertical-align: middle;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0);
+    z-index: 7;
+    flex-grow: 1;
+
     h2{
         line-height: 80px;
         margin-bottom:0px;
@@ -86,12 +103,25 @@
         width:100%;
         margin:10px auto;
         .project-wrapper{
-            
             img{
                 margin-top: 15px;
             }
         } 
     }
+}
+.media-size {
+    @media screen  and (max-width:600px){
+        width:100%;
+        margin:250px 0px auto!important;
+    }
+}
+#nextar-home .text-inner h4 {
+    color: rgba(255, 255, 255, 0.8);
+}
+#nextar-home .text-inner {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
 }
  .project-wrapper{
      
@@ -99,13 +129,19 @@
      padding:0 5px;
      img{
          width:100%;
-         margin-top: -110px;
+         margin-top: 100px;
          max-width: 200px;
      }
  }
+ .img-size {
+    margin-top: 200px;
+    @media screen  and (max-width:600px){
+        margin-top: 0px;
+    }
+}
 .text-wrapper{
     line-height: 100px;
-    top:150px;
+    top:100px;
     h2{
         line-height: 40px;
     }

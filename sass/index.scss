@@ -19,6 +19,9 @@
 #nextar-home{
     height:auto;
     padding:25px 0;
+    .text-wrapper{
+        margin-top:50px;
+    }
     .text-inner .row{
         vertical-align: middle;
       
@@ -66,7 +69,6 @@
     @media only screen  and (max-width:640px){
         .text-inner .row{
             .text-wrapper{
-                top:300px;
             }
         }
     }
@@ -96,10 +98,10 @@
     background:transparent;
 }
 #nextar-intro .project-block > .overlay {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 1);
     opacity: 1;
     z-index: 9;
-    position: relative;
+
 }
 #nextar-intro .project-block{
     width:24%;

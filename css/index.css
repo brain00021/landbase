@@ -1235,6 +1235,8 @@ h1, h2, h3, h4, h5, h6 {
 #nextar-home {
   height: auto;
   padding: 25px 0; }
+  #nextar-home .text-wrapper {
+    margin-top: 50px; }
   #nextar-home .text-inner .row {
     vertical-align: middle;
     width: 100%; }
@@ -1267,9 +1269,6 @@ h1, h2, h3, h4, h5, h6 {
           line-height: 20px; }
       #nextar-home #nextar-intro .project-block h2 {
         font-size: 16px; } }
-  @media only screen and (max-width: 640px) {
-    #nextar-home .text-inner .row .text-wrapper {
-      top: 300px; } }
 
 #nextar-intro {
   padding: 5px;
@@ -1299,10 +1298,9 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent; }
 
 #nextar-intro .project-block > .overlay {
-  background: rgba(255, 255, 255, 0);
+  background: white;
   opacity: 1;
-  z-index: 9;
-  position: relative; }
+  z-index: 9; }
 
 #nextar-intro .project-block {
   width: 24%;

@@ -1234,9 +1234,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #nextar-home {
   height: auto;
-  padding: 25px 0; }
+  padding: 60px 0 25px 0; }
   #nextar-home .text-wrapper {
-    margin-top: 50px; }
+    margin-top: 20px; }
   #nextar-home .text-inner .row {
     vertical-align: middle;
     width: 100%; }
@@ -1273,7 +1273,7 @@ h1, h2, h3, h4, h5, h6 {
 #nextar-intro {
   padding: 5px;
   margin-top: 0px;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px; }
   #nextar-intro .gradient {
     position: absolute;
@@ -1371,7 +1371,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff; }
 
 #nextar-contact {
-  padding: 0; }
+  padding: 60px 0 0 0; }
 
 #footer {
   padding: 30px 0;
@@ -1391,3 +1391,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px; }
   .footer-text-wrapper p {
     margin: 0; }
+
+#nextar-home .text-inner h1.servicetext {
+  font-size: 40px; }
+
+.mt-20 {
+  margin-top: 30px; }
+
+#nextar-home h2 p {
+  margin-bottom: 1em; }
+
+#nextar-contact i {
+  margin-right: 15px; }
+
+/*# sourceMappingURL=index.css.map */
